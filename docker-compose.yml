@@ -1,0 +1,12 @@
+version: '3'
+services:
+	# write the services, what are the container going to be build
+	# this is a container or the service which im creating under the image
+	mysql_database:
+		image: "mysql:latest"
+		environment:
+			- MYSQL_ROOT_PASSWORD="password"
+	web_test:
+		image: "nginx:latest"
+	# these image will be download if locally not available
+
