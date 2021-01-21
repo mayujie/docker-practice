@@ -1,0 +1,12 @@
+version: '3'
+services:
+	# container
+	ubuntuwebserver:
+		build: /root/apache2docker
+		# image name (default is service name) 
+		image: "dockercompose/apache2:1.0"
+		# container name (default is service name)
+		container_name: docker.compose.apache2
+		# port mapping host: container
+		ports:
+		  - "3308:80"

@@ -15,6 +15,10 @@ We can override CMD by passing arguments
 
 - `docker-compose up -d`
 
+- `docker container ls // docker ps [-a]`
+
+- `docker image ls // docker images [-a]`
+
 - `docker-compose down`
 
 # References:
